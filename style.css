@@ -15,32 +15,64 @@ body{
 }
 
 .header{
-    display:flex;
-    position:relative;
+   
+    
     width:100%;
     display:flex;
     justify-content: center;
     color:#fafafa;
-    align-items: flex-end;
+    align-items: center;
+   
     background-image: url(img/header-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height:100vh;
+    height:80vh;
     padding-bottom:10%;
+    flex-direction:column;
+    flex-wrap:wrap;
 }
 
 .page-title{
-    position:absolute;
-    top:50vh;
-  
+    font-weight:bold;
+   font-size:2rem;
+}
+
+#search-btn{
+    background-color:#1F1B26;
+    border:0;
+    border-radius:2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color:#fafafa;
+    font-size:2rem;
+    width:50%;
+    
 }
 
 input{
     border:0;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    color:#ccc;
+    font-size:1rem;
+    
     
 
+}
+.search-inputs{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-inputs input{
+    display:flex;
+    margin-bottom:1rem;
+    width:50%;
+    justify-content: center;
 }
 
 ul{
     list-style-type: none;
 }
+
