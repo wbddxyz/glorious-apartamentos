@@ -47,6 +47,7 @@ body{
    font-size:2vw;
    display:flex;
    flex-direction: column;
+   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 #search-btn{
@@ -96,5 +97,35 @@ input{
 
 ul{
     list-style-type: none;
+}
+
+.nav-overlay{
+    display:flex;
+
+    background-color:rgba(31, 27, 38, 0.88);
+    width:30%;
+    padding:2%;
+    position:absolute;
+    top:0;
+    right:0;
+    box-shadow: rgba(0, 0, 0, 0.0) 0px 15px 25px, rgba(0, 0, 0, 0.00) 0px 5px 10px;
+}
+
+.nav-overlay li{
+    margin-bottom:3%;
+    font-size:2vw;
+}
+
+.menu-button{
+    display:flex;
+    align-items: flex-start;
+
+}
+.menu-button img{
+    cursor: pointer;
+}
+
+.hidden{
+    display:none;
 }
 
