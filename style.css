@@ -32,6 +32,16 @@ body{
     flex-wrap:wrap;
 }
 
+
+.top-navs{
+    
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    align-items: flex-end;
+    
+}
+
 .page-title{
     font-weight:bold;
    font-size:2rem;
