@@ -44,7 +44,9 @@ body{
 
 .page-title{
     font-weight:bold;
-   font-size:2rem;
+   font-size:2vw;
+   display:flex;
+   flex-direction: column;
 }
 
 #search-btn{
@@ -53,7 +55,7 @@ body{
     border-radius:2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     color:#fafafa;
-    font-size:2rem;
+    font-size:2vw;
     width:50%;
     
 }
@@ -62,7 +64,7 @@ input{
     border:0;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
     color:#ccc;
-    font-size:1rem;
+    font-size:2vw;
     
     
 
