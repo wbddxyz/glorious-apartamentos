@@ -63,6 +63,10 @@ input{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:rgba(49, 141, 172, 0.27);
+    padding:1%;
+    backdrop-filter: blur(10px);
+    border-radius:2rem;
 }
 
 .search-inputs input{
