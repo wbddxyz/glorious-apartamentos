@@ -1,0 +1,142 @@
+body{
+    color:#fafafa;
+    margin:0;
+    padding:0;
+}
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    margin:auto;
+}
+
+.header{
+   
+    
+    width:100%;
+    display:flex;
+    
+    color:#fafafa;
+    align-items: center;
+   
+    background-image: url(img/header-background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:80vh;
+    padding-bottom:10%;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+
+.top-navs{
+    
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: flex-end;
+    
+}
+
+.page-title{
+    font-weight:bold;
+   font-size:2vw;
+   display:flex;
+   flex-direction: column;
+   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#search-btn{
+    background-color:#1F1B26;
+    border:0;
+    border-radius:2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color:#fafafa;
+    font-size:3vw;
+    width:50%;
+    
+}
+
+input{
+    width:180%;
+    border:0;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    color:#ccc;
+    font-size:3vw;
+    
+    
+
+}
+
+
+.phone-numbers{
+    margin-left:2%;
+}
+
+.menu-icon{
+    width:5vw;
+    height:5vh;
+}
+.search-inputs{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(49, 141, 172, 0.27);
+    padding:1%;
+    backdrop-filter: blur(10px);
+    border-radius:2rem;
+}
+
+.search-inputs input{
+    display:flex;
+    margin-bottom:1rem;
+    width:50%;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav-overlay{
+    display:flex;
+
+    background-color:rgba(31, 27, 38, 0.88);
+    width:30%;
+    padding:2%;
+    position:absolute;
+    top:0;
+    right:0;
+    box-shadow: rgba(0, 0, 0, 0.0) 0px 15px 25px, rgba(0, 0, 0, 0.00) 0px 5px 10px;
+}
+
+.nav-overlay li{
+    margin-bottom:3%;
+    font-size:2vw;
+}
+
+.menu-button{
+    display:flex;
+    align-items: flex-start;
+    background:none;
+    background-color:#fafafa;
+    border:none;
+    
+
+}
+
+.photo-credit{
+    color:black;
+}
+
+
+.hidden{
+    display:none;
+}
+
