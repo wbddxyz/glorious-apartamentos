@@ -19,7 +19,7 @@ body{
     
     width:100%;
     display:flex;
-    justify-content: center;
+    
     color:#fafafa;
     align-items: center;
    
@@ -36,7 +36,7 @@ body{
 .top-navs{
     
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width:100%;
     align-items: flex-end;
     
@@ -68,6 +68,12 @@ input{
     
     
 
+}
+
+
+.menu-icon{
+    width:5vw;
+    height:5vh;
 }
 .search-inputs{
     width:50%;
