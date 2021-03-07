@@ -119,11 +119,13 @@ ul{
 .menu-button{
     display:flex;
     align-items: flex-start;
+    background:none;
+    background-color:#fafafa;
+    border:none;
+    
 
 }
-.menu-button img{
-    cursor: pointer;
-}
+
 
 .hidden{
     display:none;
